@@ -28,5 +28,5 @@ function adminer_object()
 		return new AdminerPlugin($plugins);
 	}
 
-	// Include original Adminer or Adminer Editor.
-	include "./adminer-4.7.5.php";
+// Include original Adminer or Adminer Editor.
+include "./adminer.php";
