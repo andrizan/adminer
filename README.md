@@ -26,7 +26,7 @@ File structure will be:
 - fonts
 - images
 - plugins
-- adminer.php
+- adminer.php (v4.8.1)
 ```
 
 3. Create index.php file and [configure plugins](http://www.adminer.org/plugins/#use). Don't forget to copy official [plugin.php](https://raw.githubusercontent.com/vrana/adminer/master/plugins/plugin.php) into the `plugins` folder.
@@ -48,7 +48,7 @@ File structure will be:
 		$plugins = [
 			// AdminerTheme has to be the last one!
 			new AdminerTheme(),
-			
+
 			// Color variant can by specified in constructor parameter.
 			// new AdminerTheme("default-orange"),
 			// new AdminerTheme("default-blue"),
