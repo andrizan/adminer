@@ -70,6 +70,10 @@ Final file structure will be:
 - plugins
 	- AdminerTheme.php
 	- plugin.php
+	- dump-date.php
+	- dump-zip.php
+	- dump-json.php
+	- tables-filter.php
 - adminer.php
 - index.php
 ```
